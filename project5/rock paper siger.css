@@ -1,0 +1,100 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #25272E;
+}
+header{
+    background: white;
+    padding: 20px;
+}
+
+header>h1{
+    color: #25272E;
+    text-align: center;
+    font-family: sans-serif;
+}
+.scroe-bord{
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-size:46px ;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+.badge{
+    background:#E2584D ;
+    color: white;
+    font-size: 20px;
+    padding: 2px 10px;
+    font-family: sans-serif;
+}
+#user-lable{
+    position: absolute;
+    top:30px;
+    left: -30px;
+}
+
+#computer-lebel{
+    position: absolute;
+    top:30px;
+    left: 160px;
+}
+#score{
+    position: relative;
+    left: 50px;
+}
+.result{
+    font-size: 40px;
+    color:white
+
+}
+
+.result>p{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.choices{
+    text-align: center;
+    margin: 50px 0;
+}
+.choice{
+    border: 4px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 15px;
+    transition: 0.3s ease;
+   
+
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: red;
+}
+#action-massage{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin: 20px 0;
+    font-size: bold;
+}
+
+.green-glow{
+    border: 4px solid green;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+    border: 4px solid red;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow{
+    border: 4px solid gray;
+    box-shadow: 0 0 10px grey;
+}
